@@ -1,7 +1,6 @@
 import subprocess
 
 def abrir_video_en_edge(video_url):
-    # Comando para ejecutar Microsoft Edge con la URL del video
     comando = f'start microsoft-edge:{video_url}'
     subprocess.Popen(comando, shell=True)
 
