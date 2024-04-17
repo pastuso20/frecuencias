@@ -50,7 +50,6 @@ def main():
                     ejecutar_close_py()
                     hablar("Se ha detenido el proceso")
                     print("Desconectando...")
-                    print("Desconectando...")
                     print("Desconexión completa")
                     time.sleep(2)  # Esperamos 2 segundos
                     return  # Salimos de la función main() cuando se completa la desconexión
