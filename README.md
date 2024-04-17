@@ -4,14 +4,14 @@ Este script al escuchar la palabra '''canguro''' ejecuta una ventana del navegad
 
 ## Dependecias
 
-Este proyecto usa las dependencias de: 
-> speech_recognition 
+>[!IMPORTANT]
+>Este proyecto usa las dependencias de: 
+>speech_recognition 
+>pyttsx3
 
 ```bash
 pip install speech_recognition
 ```
-
-> pyttsx3
 
 ```bash
 pip install pyttsx3
